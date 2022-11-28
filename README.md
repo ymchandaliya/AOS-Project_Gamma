@@ -22,9 +22,9 @@ Run command:
 
 1. We have make threads for all three types of people i.e. Geek Non-Geek and Singer
 2. Following calls are made
-    *. thread call is made for GeekArrives() for Geek.
-    *. thread call is made for NonGeekArrives() for Non-Geek.
-    *. thread call is made for SingerArrives() for Singer.
+   * thread call is made for GeekArrives() for Geek.
+   * thread call is made for NonGeekArrives() for Non-Geek.
+   * thread call is made for SingerArrives() for Singer.
 3. We take Lock and Read Status of Bridge and update if it is safe .
 4. 3 will wait untile 4 th come. when 4 th come he will call Go Bridge and Broadcast all waiting three.
 5. When last Geek Non-Geek Combination is unsafe it will send one of them first and then three will go.
